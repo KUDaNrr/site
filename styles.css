@@ -1,14 +1,17 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     background-color: #fafafa;
     color: #333;
     margin: 0;
     padding: 0;
+    background-image: url('background.jpg'); /* путь к вашему изображению */
+    background-size: cover; /* чтобы изображение покрывало весь фон */
+    background-position: center; /* центрирует изображение */
+    background-repeat: no-repeat; /* не повторяет изображение */
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1b9e20; /* делаем фон полупрозрачным */
     padding: 20px;
     text-align: center;
     color: white;
@@ -25,4 +28,93 @@ nav {
 }
 
 nav a {
-   
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* слегка затемняет кнопку */
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* фоновый цвет секции */
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Основные стили для body */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Фон для раздела "О нас" */
+#about {
+    background-image: url('about-background.jpg'); /* Укажите путь к изображению */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white; /* Цвет текста для улучшения видимости */
+}
+
+/* Фон для раздела "Состав" */
+#team {
+    background-image: url('team-background.jpg'); /* Укажите путь к изображению */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white; /* Цвет текста для улучшения видимости */
+}
+
+/* Фон для раздела "Руководство" */
+#leadership {
+    background-image: url('leadership-background.jpg'); /* Укажите путь к изображению */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white; /* Цвет текста для улучшения видимости */
+}
+
+/* Фон для раздела "Контакты" */
+#contacts {
+    background-image: url('contacts-background.jpg'); /* Укажите путь к изображению */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white; /* Цвет текста для улучшения видимости */
+}
+
+
